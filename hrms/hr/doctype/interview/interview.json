@@ -17,6 +17,7 @@
   "scheduled_on",
   "from_time",
   "to_time",
+  "google_meet_linnk",
   "section_break_hqvh",
   "interview_details",
   "ratings_section",
@@ -184,11 +185,16 @@
    "fieldtype": "Section Break"
   },
   {
+   "allow_on_submit": 1,
    "fieldname": "interview_details",
    "fieldtype": "Table",
    "label": "Interviewers",
-   "options": "Interview Detail",
-   "allow_on_submit": 1
+   "options": "Interview Detail"
+  },
+  {
+   "fieldname": "google_meet_linnk",
+   "fieldtype": "Data",
+   "label": "Google meet Link"
   }
  ],
  "index_web_pages_for_search": 1,
@@ -199,7 +205,7 @@
    "link_fieldname": "interview"
   }
  ],
- "modified": "2023-12-30 12:13:59.157555",
+ "modified": "2024-05-17 12:43:10.051727",
  "modified_by": "Administrator",
  "module": "HR",
  "name": "Interview",

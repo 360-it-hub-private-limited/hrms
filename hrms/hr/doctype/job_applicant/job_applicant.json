@@ -439,8 +439,7 @@
    "fieldname": "current_location_area_and_city_name",
    "fieldtype": "Data",
    "label": "Current Location (Area Name)",
-   "permlevel": 2,
-   "reqd": 1
+   "permlevel": 2
   },
   {
    "fieldname": "relocation_preferences",
@@ -581,7 +580,7 @@
  "links": [],
  "make_attachments_public": 1,
  "max_attachments": 2,
- "modified": "2024-05-16 09:57:15.512275",
+ "modified": "2024-05-22 11:06:40.107119",
  "modified_by": "Administrator",
  "module": "HR",
  "name": "Job Applicant",
